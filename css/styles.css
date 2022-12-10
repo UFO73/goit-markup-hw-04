@@ -211,7 +211,7 @@ line-height: 1.3;
 
 /* переробити коли появиться фон картинка */
 .hero, .footer {
-    /* background-color: var(--title-text-color); */
+    background-color: var(--title-text-color);
 }
 
 .hero-title {
@@ -253,6 +253,16 @@ line-height: 1.3;
 
 .info-item {
     margin-left: 24px;
+}
+
+.info-item::before {
+    content: "";
+    display: block;
+
+    background-color: var(--logo-footer-white);
+    height: 112px;
+    border-radius: 4px;
+    margin-bottom: 8px;
 }
 
 .info-item:first-child {
