@@ -193,12 +193,25 @@ line-height: 1.3;
 
 .hero {
     text-align: center;
-    padding: 192px 0;
+    padding: 192px 400px;
+    
+    max-width: 1440px;
+    height: 603px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-image: linear-gradient(
+        to right,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ), 
+    url(../images/people-office.jpg)
+
 }
 
 /* переробити коли появиться фон картинка */
 .hero, .footer {
-    background-color: var(--title-text-color);
+    /* background-color: var(--title-text-color); */
 }
 
 .hero-title {
